@@ -1,0 +1,37 @@
+name: Integration Proposal
+description: Propose a new technology integration or framework guide
+title: "[INTEGRATION]: "
+labels: ["integration", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please outline your proposal for a new integration with Tracelyt.
+  - type: textarea
+    id: technology
+    attributes:
+      label: Target Technology & Category
+      description: Name of the application, framework, database, or infrastructure component (e.g. FastAPI, MySQL, Spring Boot).
+    validations:
+      required: true
+  - type: textarea
+    id: upstream_refs
+    attributes:
+      label: Official Upstream Documentation
+      description: Links to official OpenTelemetry or upstream vendor instrumentation documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: signals
+    attributes:
+      label: Telemetry Signals
+      description: Which signals does this technology support? (Traces, Metrics, Logs).
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Value & Platform Use Case
+      description: Why is this integration beneficial to Tracelyt users?
+    validations:
+      required: false

@@ -1,0 +1,37 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE caches
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python artifacts (for validation tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node artifacts (if linter is run)
+node_modules/
+package-lock.json
+
+# Build outputs & temporary files
+build/
+dist/
+tmp/
+*.log
+
+# Sensitive credentials & keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert

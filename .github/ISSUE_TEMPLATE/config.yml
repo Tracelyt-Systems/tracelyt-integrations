@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tracelyt Community Discussions
+    url: https://github.com/Tracelyt-Systems/tracelyt-integrations/discussions
+    about: Ask integration questions, share architectures, and discuss proposed connectors.
+  - name: Security Vulnerability Reporting
+    url: https://github.com/Tracelyt-Systems/tracelyt-integrations/security/policy
+    about: Privately report security vulnerabilities.
